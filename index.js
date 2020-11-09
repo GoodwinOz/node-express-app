@@ -28,6 +28,7 @@ const keys = require('./keys')
 const app = express()
 
 
+
 const hbs = exphbs.create({
     defaultLayout: 'main',
     extname: 'hbs',
@@ -95,9 +96,7 @@ app.use('/profile', profileRoutes)
 
 app.use(errorHandler)
 
-//MongoDB password
-// const password = 'WzC6KbiyKNiUemAa'
-// const url = `mongodb+srv://Goodwin:WzC6KbiyKNiUemAa@cluster0.bylt1.mongodb.net/<dbname>?retryWrites=true&w=majority`
+
 
 // app.get('/add', (req, res) => {
 //     res.render('add', {
