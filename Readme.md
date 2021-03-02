@@ -1,5 +1,5 @@
 This is a nodejs (also used: express/hbs/css) app that was created within completing the udemy course (link below). 
-App was created just for a domonstration of learned skills that was obtaind in process of completing of a course.
+App was created just for a demonstration of learned skills that was obtaind in process of completing of a course.
 
 Small description of current app:
 App (e-shop) for selling any kind of courses.
